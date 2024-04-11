@@ -14,7 +14,7 @@ const Hero = () => {
             <p>Elite Surfing</p>
           </div>
           <p>high performance</p>
-          <p>for all types of surfboards</p>
+          <p>surf traction</p>
         </div>
         <div className='hero-latest-btn'>
           <div>Latest Collection</div>
