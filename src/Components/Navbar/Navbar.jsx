@@ -1,5 +1,5 @@
-import React, { useContext, useRef, useState } from 'react';
-import './Navbar.css';
+import { useContext, useState, useRef } from 'react';
+import '../../Components/Navbar/Navbar.css';
 import logo from '../Assets/logo.png';
 import cart_icon from '../Assets/cart_icon.png';
 import nav_dropdown from '../Assets/nav_dropdown.png';
@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className='nav-logo'>
         <img src={logo} alt='' />
-        <p>SHOPPER</p>
+        <Link style={{ textDecoration: 'none' }} to='/'></Link>
       </div>
       <img
         onClick={dropdown_toggle}

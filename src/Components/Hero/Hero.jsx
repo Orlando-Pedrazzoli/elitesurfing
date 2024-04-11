@@ -8,14 +8,13 @@ const Hero = () => {
   return (
     <div className='hero'>
       <div className='hero-left'>
-        <h2>NEW ARRIVALS ONLY</h2>
+        <h2>FREE SHIPPING!</h2>
         <div>
           <div className='hero-hand-icon'>
-            <p>new</p>
-            <img src={hand_icon} alt='' />
+            <p>Elite Surfing</p>
           </div>
-          <p>collections</p>
-          <p>for everyone</p>
+          <p>high performance</p>
+          <p>for all types of surfboards</p>
         </div>
         <div className='hero-latest-btn'>
           <div>Latest Collection</div>
