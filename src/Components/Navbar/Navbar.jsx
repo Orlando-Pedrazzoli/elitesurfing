@@ -19,8 +19,10 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='nav-logo'>
-        <img src={logo} alt='' />
-        <Link style={{ textDecoration: 'none' }} to='/'></Link>
+        <Link style={{ textDecoration: 'none' }} to='/'>
+          {' '}
+          <img src={logo} alt='' />
+        </Link>
       </div>
       <img
         onClick={dropdown_toggle}
