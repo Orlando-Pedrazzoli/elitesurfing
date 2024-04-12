@@ -125,24 +125,19 @@
   }
 }
 @media (max-width: 500px) {
-  .hero {
-    flex-direction: column;
-  }
   .hero-left h2 {
     font-size: 18px;
   }
   .hero-left p {
-    font-size: 50px;
+    font-size: 30px;
   }
-  .hero-hand-icon img {
-    width: 55px;
-  }
+
   .hero-latest-btn {
-    width: 200px;
-    height: 45px;
+    width: 140px;
+    height: 35px;
     font-size: 13px;
   }
-  .hero-right {
-    display: none;
+  .hero-right img {
+    width: 230px;
   }
 }
