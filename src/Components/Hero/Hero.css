@@ -24,9 +24,6 @@
   font-weight: 600;
 }
 
-.hero-hand-icon img {
-  width: 100px;
-}
 .hero-latest-btn {
   display: flex;
   justify-content: center;
@@ -121,22 +118,27 @@
   }
 }
 @media (max-width: 500px) {
+  .hero {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+  }
   .hero-left h2 {
     font-size: 15px;
   }
   .hero-left p {
-    font-size: 20px;
+    font-size: 50px;
   }
 
   .hero-latest-btn {
-    width: 100px;
-    height: 25px;
-    font-size: 8px;
+    display: none;
   }
   .hero-latest-btn img {
     width: 15px;
   }
   .hero-right img {
-    width: 190px;
+    width: 300px;
   }
 }
