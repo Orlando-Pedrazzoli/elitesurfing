@@ -34,6 +34,24 @@ import p33_img from './product_33.png';
 import p34_img from './product_34.png';
 import p35_img from './product_35.png';
 import p36_img from './product_36.png';
+import p1a_img from './product_1a.png';
+import p1b_img from './product_1b.png';
+import p1c_img from './product_1c.png';
+import p2a_img from './product_2a.png';
+import p2b_img from './product_2b.png';
+import p2c_img from './product_2c.png';
+import p3a_img from './product_3a.png';
+import p3b_img from './product_3b.png';
+import p3c_img from './product_3c.png';
+import p4a_img from './product_4a.png';
+import p4b_img from './product_4b.png';
+import p4c_img from './product_4c.png';
+import p5a_img from './product_5a.png';
+import p5b_img from './product_5b.png';
+import p5c_img from './product_5c.png';
+import p6a_img from './product_6a.png';
+import p6b_img from './product_6b.png';
+import p6c_img from './product_6c.png';
 
 let all_product = [
   {
@@ -41,6 +59,9 @@ let all_product = [
     name: 'Deck J-Bay Black/Gray',
     category: 'women',
     image: p1_img,
+    imageDetail1: p1a_img,
+    imageDetail2: p1b_img,
+    imageDetail3: p1c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -49,6 +70,9 @@ let all_product = [
     name: 'Deck J-Bay Black/Blue',
     category: 'women',
     image: p2_img,
+    imageDetail1: p2a_img,
+    imageDetail2: p2b_img,
+    imageDetail3: p2c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -57,6 +81,9 @@ let all_product = [
     name: 'Deck J-Bay Black/Green',
     category: 'women',
     image: p3_img,
+    imageDetail1: p3a_img,
+    imageDetail2: p3b_img,
+    imageDetail3: p3c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -65,6 +92,9 @@ let all_product = [
     name: 'Deck J-Bay Black/Orange',
     category: 'women',
     image: p4_img,
+    imageDetail1: p4a_img,
+    imageDetail2: p4b_img,
+    imageDetail3: p4c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -73,6 +103,9 @@ let all_product = [
     name: 'Deck J-Bay Black/Yellow',
     category: 'women',
     image: p5_img,
+    imageDetail1: p5a_img,
+    imageDetail2: p5b_img,
+    imageDetail3: p5c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -81,6 +114,9 @@ let all_product = [
     name: 'Deck J-Bay Black/Red',
     category: 'women',
     image: p6_img,
+    imageDetail1: p6a_img,
+    imageDetail2: p6b_img,
+    imageDetail3: p6c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
