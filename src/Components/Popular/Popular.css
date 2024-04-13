@@ -72,6 +72,7 @@
 @media (max-width: 500px) {
   .popular {
     height: 60vh;
+    margin-bottom: 200px;
     gap: 10px;
   }
   .popular-item {
