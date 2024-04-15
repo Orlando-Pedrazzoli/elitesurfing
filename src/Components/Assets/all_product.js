@@ -2,73 +2,126 @@ import p1_img from './product_1.png';
 import p1a_img from './product_1a.png';
 import p1b_img from './product_1b.png';
 import p1c_img from './product_1c.png';
+
 import p2_img from './product_2.png';
 import p2a_img from './product_2a.png';
 import p2b_img from './product_2b.png';
 import p2c_img from './product_2c.png';
+
 import p3_img from './product_3.png';
 import p3a_img from './product_3a.png';
 import p3b_img from './product_3b.png';
 import p3c_img from './product_3c.png';
+
 import p4_img from './product_4.png';
 import p4a_img from './product_4a.png';
 import p4b_img from './product_4b.png';
 import p4c_img from './product_4c.png';
+
 import p5_img from './product_5.png';
 import p5a_img from './product_5a.png';
 import p5b_img from './product_5b.png';
 import p5c_img from './product_5c.png';
+
 import p6_img from './product_6.png';
 import p6a_img from './product_6a.png';
 import p6b_img from './product_6b.png';
 import p6c_img from './product_6c.png';
+
 import p7_img from './product_7.png';
 import p7b_img from './product_7b.png';
 import p7c_img from './product_7c.png';
+
 import p8_img from './product_8.png';
+
 import p9_img from './product_9.png';
+
 import p10_img from './product_10.png';
+
 import p11_img from './product_11.png';
+
 import p12_img from './product_12.png';
+
 import p13_img from './product_13.png';
+import p13b_img from './product_13b.png';
+import p13c_img from './product_13c.png';
+
 import p14_img from './product_14.png';
+import p14b_img from './product_14b.png';
+import p14c_img from './product_14c.png';
+
 import p15_img from './product_15.png';
+import p15b_img from './product_15b.png';
+import p15c_img from './product_15c.png';
+
 import p16_img from './product_16.png';
+import p16b_img from './product_16b.png';
+import p16c_img from './product_16c.png';
+
 import p17_img from './product_17.png';
+import p17b_img from './product_17b.png';
+import p17c_img from './product_17c.png';
+
 import p18_img from './product_18.png';
+import p18b_img from './product_18b.png';
+import p18c_img from './product_18c.png';
+
 import p19_img from './product_19.png';
+
 import p20_img from './product_20.png';
+
 import p21_img from './product_21.png';
+
 import p22_img from './product_22.png';
+
 import p23_img from './product_23.png';
+
 import p24_img from './product_24.png';
+
 import p25_img from './product_25.png';
+
 import p26_img from './product_26.png';
+
 import p27_img from './product_27.png';
+
 import p28_img from './product_28.png';
+
 import p29_img from './product_29.png';
+
 import p30_img from './product_30.png';
+
 import p31_img from './product_31.png';
+
 import p32_img from './product_32.png';
+
 import p33_img from './product_33.png';
+
 import p34_img from './product_34.png';
+
 import p35_img from './product_35.png';
+
 import p36_img from './product_36.png';
+
 import p37_img from './product_37.png';
 import p37b_img from './product_37b.png';
 import p37c_img from './product_37c.png';
+
 import p38_img from './product_38.png';
 import p38b_img from './product_38b.png';
 import p38c_img from './product_38c.png';
+
 import p39_img from './product_39.png';
 import p39b_img from './product_39b.png';
 import p39c_img from './product_39c.png';
+
 import p40_img from './product_40.png';
 import p40b_img from './product_40b.png';
 import p40c_img from './product_40c.png';
+
 import p41_img from './product_41.png';
 import p41b_img from './product_41b.png';
 import p41c_img from './product_41c.png';
+
 import p42_img from './product_42.png';
 import p42b_img from './product_42b.png';
 import p42c_img from './product_42c.png';
@@ -195,6 +248,8 @@ let all_product = [
     name: 'Deck Fiji - Black/Blue',
     category: 'men',
     image: p13_img,
+    imageDetail2: p13b_img,
+    imageDetail3: p13c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -203,6 +258,8 @@ let all_product = [
     name: 'Deck Fiji - Black/Gray',
     category: 'men',
     image: p14_img,
+    imageDetail2: p14b_img,
+    imageDetail3: p14c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -211,6 +268,8 @@ let all_product = [
     name: 'Deck Fiji - Black/Green',
     category: 'men',
     image: p15_img,
+    imageDetail2: p15b_img,
+    imageDetail3: p15c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -219,6 +278,8 @@ let all_product = [
     name: 'Deck Fiji - Black/Red',
     category: 'men',
     image: p16_img,
+    imageDetail2: p16b_img,
+    imageDetail3: p16c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -227,6 +288,8 @@ let all_product = [
     name: 'Deck Fiji - Black/Orange',
     category: 'men',
     image: p17_img,
+    imageDetail2: p17b_img,
+    imageDetail3: p17c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -235,6 +298,8 @@ let all_product = [
     name: 'Deck Fiji - Black/Yellow',
     category: 'men',
     image: p18_img,
+    imageDetail2: p18b_img,
+    imageDetail3: p18c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
