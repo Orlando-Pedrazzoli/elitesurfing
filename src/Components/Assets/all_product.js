@@ -34,6 +34,21 @@ import p33_img from './product_33.png';
 import p34_img from './product_34.png';
 import p35_img from './product_35.png';
 import p36_img from './product_36.png';
+import p37_img from './product_37.png';
+import p37b_img from './product_37b.png';
+import p37c_img from './product_37c.png';
+import p38_img from './product_38.png';
+import p38b_img from './product_38b.png';
+import p38c_img from './product_38c.png';
+import p39_img from './product_39.png';
+import p39b_img from './product_39b.png';
+import p39c_img from './product_39c.png';
+import p40_img from './product_40.png';
+import p40b_img from './product_40b.png';
+import p40c_img from './product_40c.png';
+import p41_img from './product_41.png';
+import p41b_img from './product_41b.png';
+import p41c_img from './product_41c.png';
 import p1a_img from './product_1a.png';
 import p1b_img from './product_1b.png';
 import p1c_img from './product_1c.png';
@@ -357,6 +372,60 @@ let all_product = [
     name: 'Deck Hawaii - Green',
     category: 'kid',
     image: p36_img,
+    new_price: 25.0,
+    old_price: 42.5,
+  },
+  {
+    id: 37,
+    name: 'Deck Fiji - White / Black',
+    category: 'men',
+    image: p37_img,
+    imageDetail2: p37b_img,
+    imageDetail3: p37c_img,
+    new_price: 25.0,
+    old_price: 42.5,
+  },
+  {
+    id: 38,
+    name: 'Deck Fiji - White / Orange',
+    category: 'men',
+    image: p38_img,
+    imageDetail2: p38b_img,
+    imageDetail3: p38c_img,
+    image: p38_img,
+    new_price: 25.0,
+    old_price: 42.5,
+  },
+  {
+    id: 39,
+    name: 'Deck Fiji - White / Blue',
+    category: 'men',
+    image: p39_img,
+    imageDetail2: p39b_img,
+    imageDetail3: p39c_img,
+    image: p39_img,
+    new_price: 25.0,
+    old_price: 42.5,
+  },
+  {
+    id: 40,
+    name: 'Deck Fiji - White / Pink',
+    category: 'men',
+    image: p40_img,
+    imageDetail2: p40b_img,
+    imageDetail3: p40c_img,
+    image: p40_img,
+    new_price: 25.0,
+    old_price: 42.5,
+  },
+  {
+    id: 41,
+    name: 'Deck Fiji - White / Green',
+    category: 'men',
+    image: p41_img,
+    imageDetail2: p41b_img,
+    imageDetail3: p41c_img,
+    image: p41_img,
     new_price: 25.0,
     old_price: 42.5,
   },
