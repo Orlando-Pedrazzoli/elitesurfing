@@ -289,7 +289,10 @@
     font-size: 15px;
   }
   .productdisplay-right-size h1 {
-    margin: 10px 0px;
+    margin: 15px 0px;
+  }
+  .productdisplay-right-size ul li {
+    margin: 10px;
   }
   .productdisplay-right-sizes {
     gap: 10px;
