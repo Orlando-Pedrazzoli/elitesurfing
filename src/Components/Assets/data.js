@@ -6,6 +6,7 @@ import p5_img from './product_5.png';
 import p6_img from './product_6.png';
 import p7_img from './product_7.png';
 import p8_img from './product_8.png';
+import p37_img from './product_37.png';
 
 let data_product = [
   {
@@ -24,8 +25,8 @@ let data_product = [
   },
   {
     id: 3,
-    name: 'Deck J-Bay Green',
-    image: p8_img,
+    name: 'Deck Fiji - White / Black',
+    image: p37_img,
     new_price: 25.0,
     old_price: 42.5,
   },
