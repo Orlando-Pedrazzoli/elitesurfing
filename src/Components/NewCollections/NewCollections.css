@@ -70,11 +70,16 @@
 }
 @media (max-width: 500px) {
   .new-collections {
+    margin-top: 70px;
     gap: 6px;
   }
   .collections {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+  }
+  .new-collections hr {
+    width: 100px;
+    height: 2px;
   }
 }

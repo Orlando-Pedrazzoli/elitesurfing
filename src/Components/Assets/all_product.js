@@ -1,10 +1,30 @@
 import p1_img from './product_1.png';
+import p1a_img from './product_1a.png';
+import p1b_img from './product_1b.png';
+import p1c_img from './product_1c.png';
 import p2_img from './product_2.png';
+import p2a_img from './product_2a.png';
+import p2b_img from './product_2b.png';
+import p2c_img from './product_2c.png';
 import p3_img from './product_3.png';
+import p3a_img from './product_3a.png';
+import p3b_img from './product_3b.png';
+import p3c_img from './product_3c.png';
 import p4_img from './product_4.png';
+import p4a_img from './product_4a.png';
+import p4b_img from './product_4b.png';
+import p4c_img from './product_4c.png';
 import p5_img from './product_5.png';
+import p5a_img from './product_5a.png';
+import p5b_img from './product_5b.png';
+import p5c_img from './product_5c.png';
 import p6_img from './product_6.png';
+import p6a_img from './product_6a.png';
+import p6b_img from './product_6b.png';
+import p6c_img from './product_6c.png';
 import p7_img from './product_7.png';
+import p7b_img from './product_7b.png';
+import p7c_img from './product_7c.png';
 import p8_img from './product_8.png';
 import p9_img from './product_9.png';
 import p10_img from './product_10.png';
@@ -49,24 +69,9 @@ import p40c_img from './product_40c.png';
 import p41_img from './product_41.png';
 import p41b_img from './product_41b.png';
 import p41c_img from './product_41c.png';
-import p1a_img from './product_1a.png';
-import p1b_img from './product_1b.png';
-import p1c_img from './product_1c.png';
-import p2a_img from './product_2a.png';
-import p2b_img from './product_2b.png';
-import p2c_img from './product_2c.png';
-import p3a_img from './product_3a.png';
-import p3b_img from './product_3b.png';
-import p3c_img from './product_3c.png';
-import p4a_img from './product_4a.png';
-import p4b_img from './product_4b.png';
-import p4c_img from './product_4c.png';
-import p5a_img from './product_5a.png';
-import p5b_img from './product_5b.png';
-import p5c_img from './product_5c.png';
-import p6a_img from './product_6a.png';
-import p6b_img from './product_6b.png';
-import p6c_img from './product_6c.png';
+import p42_img from './product_42.png';
+import p42b_img from './product_42b.png';
+import p42c_img from './product_42c.png';
 
 let all_product = [
   {
@@ -137,9 +142,11 @@ let all_product = [
   },
   {
     id: 7,
-    name: 'Deck J-Bay White',
+    name: 'Deck J-Bay Black/White',
     category: 'women',
     image: p7_img,
+    imageDetail2: p7b_img,
+    imageDetail3: p7c_img,
     new_price: 25.0,
     old_price: 42.5,
   },
@@ -161,123 +168,123 @@ let all_product = [
   },
   {
     id: 10,
-    name: 'Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse',
+    name: 'Deck J-Bay White',
     category: 'women',
     image: p10_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 11,
-    name: 'Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse',
+    name: 'Deck Fiji - White / Black',
     category: 'women',
     image: p11_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 12,
-    name: 'Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse',
+    name: 'Deck Fiji - White / Pink',
     category: 'women',
     image: p12_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 13,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji - Black/Blue',
     category: 'men',
     image: p13_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 14,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji - Black/Gray',
     category: 'men',
     image: p14_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 15,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji - Black/Green',
     category: 'men',
     image: p15_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 16,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji - Black/Red',
     category: 'men',
     image: p16_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 17,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji - Black/Orange',
     category: 'men',
     image: p17_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 18,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji - Black/Yellow',
     category: 'men',
     image: p18_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 19,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji Pro - Black/Green',
     category: 'men',
     image: p19_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 20,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji Pro - Green/Black',
     category: 'men',
     image: p20_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 21,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji Pro - Black/Blue',
     category: 'men',
     image: p21_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 22,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji Pro - Blue/Black',
     category: 'men',
     image: p22_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 23,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji Pro - Black/Gray',
     category: 'men',
     image: p23_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 24,
-    name: 'Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket',
+    name: 'Deck Fiji Pro - Gray/Black',
     category: 'men',
     image: p24_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 25,
@@ -426,6 +433,17 @@ let all_product = [
     imageDetail2: p41b_img,
     imageDetail3: p41c_img,
     image: p41_img,
+    new_price: 25.0,
+    old_price: 42.5,
+  },
+  {
+    id: 42,
+    name: 'Deck Fiji - White / Gray',
+    category: 'men',
+    image: p42_img,
+    imageDetail2: p42b_img,
+    imageDetail3: p42c_img,
+    image: p42_img,
     new_price: 25.0,
     old_price: 42.5,
   },

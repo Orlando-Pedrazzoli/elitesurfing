@@ -12,8 +12,11 @@
 }
 .footer-logo p {
   color: #383838;
-  font-size: 46px;
+  font-size: 30px;
   font-weight: 700;
+}
+.footer-logo img {
+  width: 50px;
 }
 .footer-links {
   display: flex;

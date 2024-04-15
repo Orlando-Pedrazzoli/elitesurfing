@@ -10,31 +10,31 @@ import p8_img from './product_8.png';
 let data_product = [
   {
     id: 1,
-    name: 'Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse',
+    name: 'Deck J-Bay Black/Gray',
     image: p1_img,
-    new_price: 50.0,
-    old_price: 80.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 2,
-    name: 'Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse',
+    name: 'Deck J-Bay Black/Blue',
     image: p2_img,
-    new_price: 85.0,
-    old_price: 120.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 3,
-    name: 'Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse',
+    name: 'Deck J-Bay Green',
     image: p8_img,
-    new_price: 60.0,
-    old_price: 100.5,
+    new_price: 25.0,
+    old_price: 42.5,
   },
   {
     id: 4,
-    name: 'Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse',
+    name: 'Deck J-Bay Black/Orange',
     image: p4_img,
-    new_price: 100.0,
-    old_price: 150.0,
+    new_price: 25.0,
+    old_price: 42.5,
   },
 ];
 
