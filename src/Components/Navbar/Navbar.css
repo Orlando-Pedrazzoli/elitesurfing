@@ -134,8 +134,8 @@
   }
   .nav-logo img {
     width: 70px;
-    margin-left: 20px;
     margin-top: 8px;
+    margin-right: 130px;
   }
   .nav-dropdown {
     display: block;
