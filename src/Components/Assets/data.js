@@ -24,7 +24,7 @@ let data_product = [
     old_price: 42.5,
   },
   {
-    id: 3,
+    id: 37,
     name: 'Deck Fiji - White / Black',
     image: p37_img,
     new_price: 25.0,

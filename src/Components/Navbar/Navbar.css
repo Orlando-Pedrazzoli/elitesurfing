@@ -80,7 +80,7 @@
     padding: 12px 50px;
   }
   .nav-logo img {
-    width: 40px;
+    width: 90px;
   }
   .nav-logo p {
     font-size: 25px;
@@ -132,11 +132,14 @@
   .navbar {
     padding: 10px 0px;
   }
+  .nav-logo img {
+    width: 70px;
+    margin-left: 20px;
+    margin-top: 8px;
+  }
   .nav-dropdown {
     display: block;
-    width: 30px;
-    rotate: -90deg;
-    transition: 0.5s;
+    width: 33px;
   }
   .nav-menu {
     /* display: flex; */
@@ -150,9 +153,6 @@
   }
   .nav-menu-visible {
     display: flex;
-  }
-  .nav-dropdown.open {
-    transform: rotate(90deg);
   }
 }
 @media (max-width: 500px) {
