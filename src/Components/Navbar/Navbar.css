@@ -140,6 +140,8 @@
   .nav-dropdown {
     display: block;
     width: 33px;
+    order: -1;
+    margin-left: 15px;
   }
   .nav-menu {
     /* display: flex; */
