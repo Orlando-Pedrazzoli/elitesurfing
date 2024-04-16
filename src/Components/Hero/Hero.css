@@ -150,5 +150,6 @@
   }
   .hero-right img {
     width: 180px;
+    margin: 10px;
   }
 }
