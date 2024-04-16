@@ -127,6 +127,7 @@
   }
   .hero-right img {
     width: 300px;
+    padding-right: 10px;
   }
 }
 @media (max-width: 500px) {
