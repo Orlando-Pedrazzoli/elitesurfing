@@ -68,6 +68,9 @@
   }
 }
 @media (max-width: 800px) {
+  .shop-category {
+    margin-top: 70px;
+  }
   .shopcategory-banner {
     width: 95%;
   }
