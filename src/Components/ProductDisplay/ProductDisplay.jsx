@@ -61,11 +61,11 @@ const ProductDisplay = props => {
           <p>(122)</p>
         </div>
         <div className='productdisplay-right-prices'>
-          <div className='productdisplay-right-price-old'>
-            €{product.old_price.toFixed(2)}
-          </div>
           <div className='productdisplay-right-price-new'>
             €{product.new_price.toFixed(2)}
+          </div>
+          <div className='productdisplay-right-price-old'>
+            €{product.old_price.toFixed(2)}
           </div>
         </div>
         <div className='productdisplay-right-description'>
@@ -104,9 +104,6 @@ const ProductDisplay = props => {
         >
           ADD TO CART
         </button>
-        <p className='productdisplay-right-category'>
-          <span>Category :</span>Women , T-Shirt, Crop Top
-        </p>
       </div>
       {isModalOpen && (
         <div className='modal-overlay' onClick={closeModal}>
