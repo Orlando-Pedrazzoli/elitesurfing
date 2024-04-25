@@ -117,6 +117,20 @@
   max-width: 100%;
   max-height: 90vh;
 }
+.whats a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.whats img {
+  width: 60px;
+}
+.whats p {
+  padding-left: 10px;
+  color: #565454;
+  font-size: 20px;
+  font-weight: 600;
+}
 
 @media (max-width: 1280px) {
   .productdisplay {
@@ -303,11 +317,23 @@
     font-size: 14px;
   }
   .productdisplay-right button {
-    width: 130px;
-    font-size: 15px;
+    width: 110px;
+    font-size: 11px;
     padding: 12px 0px;
   }
   .productdisplay-right-category {
     font-size: 16px;
+  }
+  .whats img {
+    padding-top: 10px;
+
+    width: 40px;
+  }
+  .whats p {
+    font-size: 16px;
+    padding-top: 10px;
+  }
+  .button-whats {
+    padding-left: 10px;
   }
 }

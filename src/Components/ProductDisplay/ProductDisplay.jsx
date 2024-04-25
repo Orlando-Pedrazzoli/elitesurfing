@@ -2,6 +2,7 @@ import React, { useState, useContext } from 'react';
 import './ProductDisplay.css';
 import star_icon from '../Assets/star_icon.png';
 import tesa_img from '../Assets/tesa-logo.png';
+import whats_img from '../Assets/whatsapp.png';
 import { ShopContext } from '../../Context/ShopContext';
 
 const ProductDisplay = props => {
@@ -97,13 +98,21 @@ const ProductDisplay = props => {
             </li>
           </ul>
         </div>
-        <button
-          onClick={() => {
-            addToCart(product.id);
-          }}
-        >
-          ADD TO CART
-        </button>
+        <div className='button-whats'>
+          <button
+            onClick={() => {
+              addToCart(product.id);
+            }}
+          >
+            ADD TO CART
+          </button>
+          <div className='whats'>
+            <a href='tel:+351912164220'>
+              <img src={whats_img} alt='' />
+              <p>Contact us</p>
+            </a>
+          </div>
+        </div>
       </div>
       {isModalOpen && (
         <div className='modal-overlay' onClick={closeModal}>
