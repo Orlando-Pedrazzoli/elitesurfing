@@ -107,7 +107,7 @@ const ProductDisplay = props => {
             ADD TO CART
           </button>
           <div className='whats'>
-            <a href='tel:+351912164220'>
+            <a href='https://wa.me/351912164220/?text=Hi%2C%20I%20have%20a%20question%20about%20your%20products.'>
               <img src={whats_img} alt='' />
               <p>Contact us</p>
             </a>
