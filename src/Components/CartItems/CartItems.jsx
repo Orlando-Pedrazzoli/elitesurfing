@@ -6,6 +6,23 @@ import remove_icon from '../Assets/cart_cross_icon.png';
 const CartItems = () => {
   const { getTotalCartAmount, all_product, cartItems, removeFromCart } =
     useContext(ShopContext);
+
+  // Function to generate the message text with cart items
+  const generateMessageText = () => {
+    let message = "Hi, I'd like to purchase the following items:\n";
+    all_product.forEach(product => {
+      if (cartItems[product.id] > 0) {
+        message += `${product.name} - Quantity: ${
+          cartItems[product.id]
+        } - Price: €${(product.new_price * cartItems[product.id]).toFixed(
+          2
+        )}\n`;
+      }
+    });
+    message += `Subtotal: €${getTotalCartAmount().toFixed(2)}`;
+    return encodeURIComponent(message);
+  };
+
   return (
     <div className='cartitems'>
       <div className='cartitems-format-main'>
@@ -63,7 +80,9 @@ const CartItems = () => {
               <h3>€{getTotalCartAmount().toFixed(2)}</h3>
             </div>
           </div>
-          <button>PROCEED TO CHECKOUT</button>
+          <a href={`https://wa.me/351912164220/?text=${generateMessageText()}`}>
+            <button>PROCEED TO CHECKOUT</button>
+          </a>
         </div>
         <div className='cartitems-promocode'>
           <p>If you have a promo code, Enter it here</p>
