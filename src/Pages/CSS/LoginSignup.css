@@ -36,6 +36,7 @@
   background: #ff4141;
   margin-top: 30px;
   border: none;
+  border-radius: 5px;
   font-size: 24px;
   font-weight: 500;
   cursor: pointer;
@@ -91,6 +92,9 @@
   }
 }
 @media (max-width: 800px) {
+  .loginsignup {
+    height: 60vh;
+  }
   .loginsignup-container {
     padding: 20px 30px;
   }

@@ -89,6 +89,9 @@
   outline: none;
   cursor: pointer;
 }
+.productdisplay-right a {
+  padding-left: 20px;
+}
 .productdisplay-right-category {
   margin-top: 10px;
 }
@@ -309,6 +312,12 @@
     font-size: 11px;
     padding: 12px 0px;
   }
+
+  .productdisplay-right-buttons {
+    order: -1;
+    margin-bottom: 20px;
+  }
+
   .productdisplay-right-category {
     font-size: 16px;
   }
