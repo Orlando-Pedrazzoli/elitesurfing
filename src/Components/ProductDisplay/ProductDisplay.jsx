@@ -98,21 +98,14 @@ const ProductDisplay = props => {
             </li>
           </ul>
         </div>
-        <div className='button-whats'>
-          <button
-            onClick={() => {
-              addToCart(product.id);
-            }}
-          >
-            ADD TO CART
-          </button>
-          <div className='whats'>
-            <a href='https://wa.me/351912164220/?text=Hi%2C%20I%20have%20a%20question%20about%20your%20products.'>
-              <img src={whats_img} alt='' />
-              <p>Contact us</p>
-            </a>
-          </div>
-        </div>
+
+        <button
+          onClick={() => {
+            addToCart(product.id);
+          }}
+        >
+          ADD TO CART
+        </button>
       </div>
       {isModalOpen && (
         <div className='modal-overlay' onClick={closeModal}>
