@@ -130,7 +130,7 @@ let all_product = [
   {
     id: 1,
     name: 'Deck J-Bay Black/Gray',
-    category: 'women',
+    category: 'j-bay',
     image: p1_img,
     imageDetail1: p1a_img,
     imageDetail2: p1b_img,
@@ -141,7 +141,7 @@ let all_product = [
   {
     id: 2,
     name: 'Deck J-Bay Black/Blue',
-    category: 'women',
+    category: 'j-bay',
     image: p2_img,
     imageDetail1: p2a_img,
     imageDetail2: p2b_img,
@@ -152,7 +152,7 @@ let all_product = [
   {
     id: 3,
     name: 'Deck J-Bay Black/Green',
-    category: 'women',
+    category: 'j-bay',
     image: p3_img,
     imageDetail1: p3a_img,
     imageDetail2: p3b_img,
@@ -163,7 +163,7 @@ let all_product = [
   {
     id: 4,
     name: 'Deck J-Bay Black/Orange',
-    category: 'women',
+    category: 'j-bay',
     image: p4_img,
     imageDetail1: p4a_img,
     imageDetail2: p4b_img,
@@ -174,7 +174,7 @@ let all_product = [
   {
     id: 5,
     name: 'Deck J-Bay Black/Yellow',
-    category: 'women',
+    category: 'j-bay',
     image: p5_img,
     imageDetail1: p5a_img,
     imageDetail2: p5b_img,
@@ -185,7 +185,7 @@ let all_product = [
   {
     id: 6,
     name: 'Deck J-Bay Black/Red',
-    category: 'women',
+    category: 'j-bay',
     image: p6_img,
     imageDetail1: p6a_img,
     imageDetail2: p6b_img,
@@ -196,7 +196,7 @@ let all_product = [
   {
     id: 7,
     name: 'Deck J-Bay Black/White',
-    category: 'women',
+    category: 'j-bay',
     image: p7_img,
     imageDetail2: p7b_img,
     imageDetail3: p7c_img,
@@ -206,7 +206,7 @@ let all_product = [
   {
     id: 8,
     name: 'Deck J-Bay Green',
-    category: 'women',
+    category: 'j-bay',
     image: p8_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -214,7 +214,7 @@ let all_product = [
   {
     id: 9,
     name: 'Deck J-Bay Blue',
-    category: 'women',
+    category: 'j-bay',
     image: p9_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -222,7 +222,7 @@ let all_product = [
   {
     id: 10,
     name: 'Deck J-Bay White',
-    category: 'women',
+    category: 'j-bay',
     image: p10_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -230,7 +230,7 @@ let all_product = [
   {
     id: 11,
     name: 'Deck Fiji - White / Black',
-    category: 'women',
+    category: 'j-bay',
     image: p11_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -238,7 +238,7 @@ let all_product = [
   {
     id: 12,
     name: 'Deck Fiji - White / Pink',
-    category: 'women',
+    category: 'j-bay',
     image: p12_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -246,7 +246,7 @@ let all_product = [
   {
     id: 13,
     name: 'Deck Fiji - Black/Blue',
-    category: 'men',
+    category: 'fiji',
     image: p13_img,
     imageDetail2: p13b_img,
     imageDetail3: p13c_img,
@@ -256,7 +256,7 @@ let all_product = [
   {
     id: 14,
     name: 'Deck Fiji - Black/Gray',
-    category: 'men',
+    category: 'fiji',
     image: p14_img,
     imageDetail2: p14b_img,
     imageDetail3: p14c_img,
@@ -266,7 +266,7 @@ let all_product = [
   {
     id: 15,
     name: 'Deck Fiji - Black/Green',
-    category: 'men',
+    category: 'fiji',
     image: p15_img,
     imageDetail2: p15b_img,
     imageDetail3: p15c_img,
@@ -276,7 +276,7 @@ let all_product = [
   {
     id: 16,
     name: 'Deck Fiji - Black/Red',
-    category: 'men',
+    category: 'fiji',
     image: p16_img,
     imageDetail2: p16b_img,
     imageDetail3: p16c_img,
@@ -286,7 +286,7 @@ let all_product = [
   {
     id: 17,
     name: 'Deck Fiji - Black/Orange',
-    category: 'men',
+    category: 'fiji',
     image: p17_img,
     imageDetail2: p17b_img,
     imageDetail3: p17c_img,
@@ -296,7 +296,7 @@ let all_product = [
   {
     id: 18,
     name: 'Deck Fiji - Black/Yellow',
-    category: 'men',
+    category: 'fiji',
     image: p18_img,
     imageDetail2: p18b_img,
     imageDetail3: p18c_img,
@@ -306,7 +306,7 @@ let all_product = [
   {
     id: 19,
     name: 'Deck Fiji Pro - Black/Green',
-    category: 'men',
+    category: 'fiji',
     image: p19_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -314,7 +314,7 @@ let all_product = [
   {
     id: 20,
     name: 'Deck Fiji Pro - Green/Black',
-    category: 'men',
+    category: 'fiji',
     image: p20_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -322,7 +322,7 @@ let all_product = [
   {
     id: 21,
     name: 'Deck Fiji Pro - Black/Blue',
-    category: 'men',
+    category: 'fiji',
     image: p21_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -330,7 +330,7 @@ let all_product = [
   {
     id: 22,
     name: 'Deck Fiji Pro - Blue/Black',
-    category: 'men',
+    category: 'fiji',
     image: p22_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -338,7 +338,7 @@ let all_product = [
   {
     id: 23,
     name: 'Deck Fiji Pro - Black/Gray',
-    category: 'men',
+    category: 'fiji',
     image: p23_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -346,7 +346,7 @@ let all_product = [
   {
     id: 24,
     name: 'Deck Fiji Pro - Gray/Black',
-    category: 'men',
+    category: 'fiji',
     image: p24_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -354,7 +354,7 @@ let all_product = [
   {
     id: 25,
     name: 'Deck Hawaii - Black/Gray',
-    category: 'kid',
+    category: 'hawaii',
     image: p25_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -362,7 +362,7 @@ let all_product = [
   {
     id: 26,
     name: 'Deck Hawaii - Black/Green',
-    category: 'kid',
+    category: 'hawaii',
     image: p26_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -370,7 +370,7 @@ let all_product = [
   {
     id: 27,
     name: 'Deck Hawaii - Black/Red',
-    category: 'kid',
+    category: 'hawaii',
     image: p27_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -378,7 +378,7 @@ let all_product = [
   {
     id: 28,
     name: 'Deck Hawaii - Black/Blue',
-    category: 'kid',
+    category: 'hawaii',
     image: p28_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -386,7 +386,7 @@ let all_product = [
   {
     id: 29,
     name: 'Deck Hawaii - Black/Orange',
-    category: 'kid',
+    category: 'hawaii',
     image: p29_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -394,7 +394,7 @@ let all_product = [
   {
     id: 30,
     name: 'Deck Hawaii - Black/Yellow',
-    category: 'kid',
+    category: 'hawaii',
     image: p30_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -402,7 +402,7 @@ let all_product = [
   {
     id: 31,
     name: 'Deck Hawaii - White',
-    category: 'kid',
+    category: 'hawaii',
     image: p31_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -410,7 +410,7 @@ let all_product = [
   {
     id: 32,
     name: 'Deck Hawaii - Orange',
-    category: 'kid',
+    category: 'hawaii',
     image: p32_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -418,7 +418,7 @@ let all_product = [
   {
     id: 33,
     name: 'Deck Hawaii - Blue',
-    category: 'kid',
+    category: 'hawaii',
     image: p33_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -426,7 +426,7 @@ let all_product = [
   {
     id: 34,
     name: 'Deck Hawaii - Yellow',
-    category: 'kid',
+    category: 'hawaii',
     image: p34_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -434,7 +434,7 @@ let all_product = [
   {
     id: 35,
     name: 'Deck Hawaii - Red',
-    category: 'kid',
+    category: 'hawaii',
     image: p35_img,
     new_price: 25.0,
     old_price: 42.5,
@@ -442,7 +442,7 @@ let all_product = [
   {
     id: 36,
     name: 'Deck Hawaii - Green',
-    category: 'kid',
+    category: 'hawaii',
     image: p36_img,
     new_price: 25.0,
     old_price: 42.5,

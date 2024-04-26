@@ -51,48 +51,48 @@ const Navbar = () => {
         </li>
         <li
           onClick={() => {
-            setMenu('mens');
+            setMenu('fiji');
             closeMenu(); // Close menu after link click
           }}
         >
           <Link
             style={{ textDecoration: 'none', color: 'black' }}
-            to='/mens'
+            to='/fiji'
             onClick={closeMenu}
           >
             Deck Fiji
           </Link>
-          {menu === 'mens' ? <hr /> : <></>}
+          {menu === 'fiji' ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
-            setMenu('womens');
+            setMenu('j-bay');
             closeMenu(); // Close menu after link click
           }}
         >
           <Link
             style={{ textDecoration: 'none', color: 'black' }}
-            to='womens'
+            to='j-bay'
             onClick={closeMenu}
           >
             Deck J-Bay
           </Link>
-          {menu === 'womens' ? <hr /> : <></>}
+          {menu === 'j-bay' ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
-            setMenu('kids');
+            setMenu('hawaii');
             closeMenu(); // Close menu after link click
           }}
         >
           <Link
             style={{ textDecoration: 'none', color: 'black' }}
-            to='/kids'
+            to='/hawaii'
             onClick={closeMenu}
           >
             Deck Hawaii
           </Link>
-          {menu === 'kids' ? <hr /> : <></>}
+          {menu === 'hawaii' ? <hr /> : <></>}
         </li>
       </ul>
       <div className='nav-login-cart'>
