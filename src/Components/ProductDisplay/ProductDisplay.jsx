@@ -3,8 +3,10 @@ import './ProductDisplay.css';
 import star_icon from '../Assets/star_icon.png';
 import tesa_img from '../Assets/tesa-logo.png';
 import { ShopContext } from '../../Context/ShopContext';
+import useScrollToTop from '../../Hooks/useScrollToTop';
 
 const ProductDisplay = props => {
+  useScrollToTop();
   const { product } = props;
   const { addToCart } = useContext(ShopContext);
   const [modalImageUrl, setModalImageUrl] = useState('');
