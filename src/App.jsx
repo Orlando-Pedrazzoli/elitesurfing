@@ -10,6 +10,7 @@ import Footer from './Components/Footer/Footer';
 import men_banner from './Components/Assets/banner_mens.png';
 import women_banner from './Components/Assets/banner_women.png';
 import kid_banner from './Components/Assets/banner_kids.png';
+import outlet_banner from './Components/Assets/banner_outlet.png';
 import WhatsAppButton from './Components/WhatsAppButton/WhatsAppButton';
 import useScrollToTop from './Hooks/useScrollToTop';
 
@@ -34,7 +35,7 @@ function App() {
         />
         <Route
           path='/outlet'
-          element={<ShopCategory banner={kid_banner} category='outlet' />}
+          element={<ShopCategory banner={outlet_banner} category='outlet' />}
         />
         <Route path='/product' element={<Product />}>
           <Route path=':productId' element={<Product />} />
