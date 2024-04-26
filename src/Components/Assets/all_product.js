@@ -67,16 +67,34 @@ import p18b_img from './product_18b.png';
 import p18c_img from './product_18c.png';
 
 import p19_img from './product_19.png';
+import p19a_img from './product_19a.png';
+import p19b_img from './product_19b.png';
+import p19c_img from './product_19c.png';
 
 import p20_img from './product_20.png';
+import p20a_img from './product_20a.png';
+import p20b_img from './product_20b.png';
+import p20c_img from './product_20c.png';
 
 import p21_img from './product_21.png';
+import p21a_img from './product_21a.png';
+import p21b_img from './product_21b.png';
+import p21c_img from './product_21c.png';
 
 import p22_img from './product_22.png';
+import p22a_img from './product_22a.png';
+import p22b_img from './product_22b.png';
+import p22c_img from './product_22c.png';
 
 import p23_img from './product_23.png';
+import p23a_img from './product_23a.png';
+import p23b_img from './product_23b.png';
+import p23c_img from './product_23c.png';
 
 import p24_img from './product_24.png';
+import p24a_img from './product_24a.png';
+import p24b_img from './product_24b.png';
+import p24c_img from './product_24c.png';
 
 import p25_img from './product_25.png';
 
@@ -125,6 +143,33 @@ import p41c_img from './product_41c.png';
 import p42_img from './product_42.png';
 import p42b_img from './product_42b.png';
 import p42c_img from './product_42c.png';
+
+import p43_img from './product_43.png';
+import p43a_img from './product_43a.png';
+import p43b_img from './product_43b.png';
+import p43c_img from './product_43c.png';
+
+import p44_img from './product_44.png';
+import p44a_img from './product_44a.png';
+import p44b_img from './product_44b.png';
+import p44c_img from './product_44c.png';
+
+import p45_img from './product_45.png';
+import p45a_img from './product_45a.png';
+import p45b_img from './product_45b.png';
+import p45c_img from './product_45c.png';
+
+import p46_img from './product_46.png';
+
+import p47_img from './product_47.png';
+import p47a_img from './product_47a.png';
+import p47b_img from './product_47b.png';
+import p47c_img from './product_47c.png';
+
+import p48_img from './product_48.png';
+import p48a_img from './product_48a.png';
+import p48b_img from './product_48b.png';
+import p48c_img from './product_48c.png';
 
 let all_product = [
   {
@@ -306,49 +351,67 @@ let all_product = [
   {
     id: 19,
     name: 'Deck Fiji Pro - Black/Green',
-    category: 'fiji',
+    category: 'outlet',
     image: p19_img,
-    new_price: 25.0,
+    imageDetail1: p19a_img,
+    imageDetail2: p19b_img,
+    imageDetail3: p19c_img,
+    new_price: 20.0,
     old_price: 42.5,
   },
   {
     id: 20,
     name: 'Deck Fiji Pro - Green/Black',
-    category: 'fiji',
+    category: 'outlet',
     image: p20_img,
-    new_price: 25.0,
+    imageDetail1: p20a_img,
+    imageDetail2: p20b_img,
+    imageDetail3: p20c_img,
+    new_price: 20.0,
     old_price: 42.5,
   },
   {
     id: 21,
     name: 'Deck Fiji Pro - Black/Blue',
-    category: 'fiji',
+    category: 'outlet',
     image: p21_img,
-    new_price: 25.0,
+    imageDetail1: p21a_img,
+    imageDetail2: p21b_img,
+    imageDetail3: p21c_img,
+    new_price: 20.0,
     old_price: 42.5,
   },
   {
     id: 22,
     name: 'Deck Fiji Pro - Blue/Black',
-    category: 'fiji',
+    category: 'outlet',
     image: p22_img,
-    new_price: 25.0,
+    imageDetail1: p22a_img,
+    imageDetail2: p22b_img,
+    imageDetail3: p22c_img,
+    new_price: 20.0,
     old_price: 42.5,
   },
   {
     id: 23,
     name: 'Deck Fiji Pro - Black/Gray',
-    category: 'fiji',
+    category: 'outlet',
     image: p23_img,
-    new_price: 25.0,
+    imageDetail1: p23a_img,
+    imageDetail2: p23b_img,
+    imageDetail3: p23c_img,
+    new_price: 20.0,
     old_price: 42.5,
   },
   {
     id: 24,
     name: 'Deck Fiji Pro - Gray/Black',
-    category: 'fiji',
+    category: 'outlet',
     image: p24_img,
-    new_price: 25.0,
+    imageDetail1: p24a_img,
+    imageDetail2: p24b_img,
+    imageDetail3: p24c_img,
+    new_price: 20.0,
     old_price: 42.5,
   },
   {
@@ -450,7 +513,7 @@ let all_product = [
   {
     id: 37,
     name: 'Deck Fiji - White / Black',
-    category: 'men',
+    category: 'fiji',
     image: p37_img,
     imageDetail2: p37b_img,
     imageDetail3: p37c_img,
@@ -460,7 +523,7 @@ let all_product = [
   {
     id: 38,
     name: 'Deck Fiji - White / Orange',
-    category: 'men',
+    category: 'fiji',
     image: p38_img,
     imageDetail2: p38b_img,
     imageDetail3: p38c_img,
@@ -471,7 +534,7 @@ let all_product = [
   {
     id: 39,
     name: 'Deck Fiji - White / Blue',
-    category: 'men',
+    category: 'fiji',
     image: p39_img,
     imageDetail2: p39b_img,
     imageDetail3: p39c_img,
@@ -482,7 +545,7 @@ let all_product = [
   {
     id: 40,
     name: 'Deck Fiji - White / Pink',
-    category: 'men',
+    category: 'fiji',
     image: p40_img,
     imageDetail2: p40b_img,
     imageDetail3: p40c_img,
@@ -493,7 +556,7 @@ let all_product = [
   {
     id: 41,
     name: 'Deck Fiji - White / Green',
-    category: 'men',
+    category: 'fiji',
     image: p41_img,
     imageDetail2: p41b_img,
     imageDetail3: p41c_img,
@@ -504,12 +567,75 @@ let all_product = [
   {
     id: 42,
     name: 'Deck Fiji - White / Gray',
-    category: 'men',
+    category: 'fiji',
     image: p42_img,
     imageDetail2: p42b_img,
     imageDetail3: p42c_img,
-    image: p42_img,
     new_price: 25.0,
+    old_price: 42.5,
+  },
+  {
+    id: 43,
+    name: 'Deck Tahiti - Black/Blue',
+    category: 'outlet',
+    image: p43_img,
+    imageDetail1: p43a_img,
+    imageDetail2: p43b_img,
+    imageDetail3: p43c_img,
+    new_price: 20.0,
+    old_price: 42.5,
+  },
+  {
+    id: 44,
+    name: 'Deck Tahiti - Black/Gray',
+    category: 'outlet',
+    image: p44_img,
+    imageDetail1: p44a_img,
+    imageDetail2: p44b_img,
+    imageDetail3: p44c_img,
+    new_price: 20.0,
+    old_price: 42.5,
+  },
+  {
+    id: 45,
+    name: 'Deck Tahiti - Black/Red',
+    category: 'outlet',
+    image: p45_img,
+    imageDetail1: p45a_img,
+    imageDetail2: p45b_img,
+    imageDetail3: p45c_img,
+    new_price: 20.0,
+    old_price: 42.5,
+  },
+  {
+    id: 46,
+    name: 'Deck Tahiti - Black/Green',
+    category: 'outlet',
+    image: p46_img,
+    image: p46_img,
+    new_price: 20.0,
+    old_price: 42.5,
+  },
+  {
+    id: 47,
+    name: 'Deck Tahiti - Black/Orange',
+    category: 'outlet',
+    image: p47_img,
+    imageDetail1: p47a_img,
+    imageDetail2: p47b_img,
+    imageDetail3: p47c_img,
+    new_price: 20.0,
+    old_price: 42.5,
+  },
+  {
+    id: 48,
+    name: 'Deck Tahiti - Black/Yellow',
+    category: 'outlet',
+    image: p48_img,
+    imageDetail1: p48a_img,
+    imageDetail2: p48b_img,
+    imageDetail3: p48c_img,
+    new_price: 20.0,
     old_price: 42.5,
   },
 ];

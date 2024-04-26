@@ -102,6 +102,15 @@ const ProductDisplay = props => {
 
         <div className='productdisplay-right-buttons'>
           <button
+            style={{
+              border: '2px solid red',
+              background: 'white',
+              color: '#ff4141',
+              transition: 'transform 0.2s',
+              cursor: 'pointer',
+            }}
+            onMouseEnter={e => (e.target.style.transform = 'scale(1.1)')}
+            onMouseLeave={e => (e.target.style.transform = 'scale(1)')}
             onClick={() => {
               addToCart(product.id);
             }}
@@ -109,7 +118,18 @@ const ProductDisplay = props => {
             ADD TO CART
           </button>
           <a href={`https://wa.me/351912164220/?text=Product: ${product.name}`}>
-            <button>BUY NOW</button>
+            <button
+              style={{
+                background: '#ff4141',
+                color: 'white',
+                transition: 'transform 0.2s',
+                cursor: 'pointer',
+              }}
+              onMouseEnter={e => (e.target.style.transform = 'scale(1.1)')}
+              onMouseLeave={e => (e.target.style.transform = 'scale(1)')}
+            >
+              BUY NOW
+            </button>
           </a>
         </div>
       </div>

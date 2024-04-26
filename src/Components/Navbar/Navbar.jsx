@@ -94,6 +94,21 @@ const Navbar = () => {
           </Link>
           {menu === 'hawaii' ? <hr /> : <></>}
         </li>
+        <li
+          onClick={() => {
+            setMenu('outlet');
+            closeMenu(); // Close menu after link click
+          }}
+        >
+          <Link
+            style={{ textDecoration: 'none', color: 'black' }}
+            to='/outlet'
+            onClick={closeMenu}
+          >
+            Outlet
+          </Link>
+          {menu === 'outlet' ? <hr /> : <></>}
+        </li>
       </ul>
       <div className='nav-login-cart'>
         <Link to='/login' onClick={closeMenu}>
