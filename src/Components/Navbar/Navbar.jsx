@@ -12,21 +12,27 @@ const Navbar = () => {
   const { getTotalCartItems } = useContext(ShopContext);
   const menuRef = useRef();
 
-  const dropdown_toggle = e => {
+  // Function to toggle dropdown menu visibility
+  const toggleMenu = () => {
     menuRef.current.classList.toggle('nav-menu-visible');
-    e.target.classList.toggle('open');
+  };
+
+  // Function to close menu when dropdown toggle is clicked
+  const closeMenu = () => {
+    if (menuRef.current.classList.contains('nav-menu-visible')) {
+      toggleMenu();
+    }
   };
 
   return (
     <div className='navbar'>
       <div className='nav-logo'>
-        <Link style={{ textDecoration: 'none' }} to='/'>
-          {' '}
+        <Link style={{ textDecoration: 'none' }} to='/' onClick={closeMenu}>
           <img src={logo} alt='' />
         </Link>
       </div>
       <img
-        onClick={dropdown_toggle}
+        onClick={toggleMenu}
         className='nav-dropdown'
         src={nav_dropdown}
         alt=''
@@ -35,6 +41,7 @@ const Navbar = () => {
         <li
           onClick={() => {
             setMenu('shop');
+            closeMenu(); // Close menu after link click
           }}
         >
           <Link style={{ textDecoration: 'none', color: 'black' }} to='/'>
@@ -45,9 +52,14 @@ const Navbar = () => {
         <li
           onClick={() => {
             setMenu('mens');
+            closeMenu(); // Close menu after link click
           }}
         >
-          <Link style={{ textDecoration: 'none', color: 'black' }} to='/mens'>
+          <Link
+            style={{ textDecoration: 'none', color: 'black' }}
+            to='/mens'
+            onClick={closeMenu}
+          >
             Deck Fiji
           </Link>
           {menu === 'mens' ? <hr /> : <></>}
@@ -55,9 +67,14 @@ const Navbar = () => {
         <li
           onClick={() => {
             setMenu('womens');
+            closeMenu(); // Close menu after link click
           }}
         >
-          <Link style={{ textDecoration: 'none', color: 'black' }} to='womens'>
+          <Link
+            style={{ textDecoration: 'none', color: 'black' }}
+            to='womens'
+            onClick={closeMenu}
+          >
             Deck J-Bay
           </Link>
           {menu === 'womens' ? <hr /> : <></>}
@@ -65,19 +82,24 @@ const Navbar = () => {
         <li
           onClick={() => {
             setMenu('kids');
+            closeMenu(); // Close menu after link click
           }}
         >
-          <Link style={{ textDecoration: 'none', color: 'black' }} to='/kids'>
+          <Link
+            style={{ textDecoration: 'none', color: 'black' }}
+            to='/kids'
+            onClick={closeMenu}
+          >
             Deck Hawaii
           </Link>
           {menu === 'kids' ? <hr /> : <></>}
         </li>
       </ul>
       <div className='nav-login-cart'>
-        <Link to='/login'>
+        <Link to='/login' onClick={closeMenu}>
           <img src={user_img} alt='' />
         </Link>
-        <Link to='/cart'>
+        <Link to='/cart' onClick={closeMenu}>
           <img src={cart_icon} alt='' />
         </Link>
         <div className='nav-cart-count'>{getTotalCartItems()}</div>
