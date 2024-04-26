@@ -1,6 +1,6 @@
 .whatsapp-button {
   position: fixed;
-  bottom: 20px;
+  bottom: 30px;
   right: 20px;
   z-index: 9999; /* Ensure the button is on top of other elements */
 }
@@ -11,8 +11,7 @@
 }
 @media (max-width: 500px) {
   .whatsapp-button img {
-    width: 50px;
+    width: 56px;
     opacity: 0.9;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 }
