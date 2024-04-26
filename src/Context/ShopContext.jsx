@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react';
+import React, { createContext, useState, useEffect } from 'react';
 import all_product from '../Components/Assets/all_product';
 
 export const ShopContext = createContext(null);
@@ -12,11 +12,19 @@ const getDefaultCart = () => {
 };
 
 const ShopContextProvider = props => {
-  const [cartItems, setCartItems] = useState(getDefaultCart());
+  // Load cart items from localStorage or set default cart
+  const [cartItems, setCartItems] = useState(() => {
+    const savedCartItems = localStorage.getItem('cartItems');
+    return savedCartItems ? JSON.parse(savedCartItems) : getDefaultCart();
+  });
+
+  // Save cart items to localStorage whenever cartItems state changes
+  useEffect(() => {
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+  }, [cartItems]);
 
   const addToCart = itemId => {
     setCartItems(prev => ({ ...prev, [itemId]: prev[itemId] + 1 }));
-    console.log(cartItems);
   };
 
   const removeFromCart = itemId => {
@@ -52,6 +60,7 @@ const ShopContextProvider = props => {
     addToCart,
     removeFromCart,
   };
+
   return (
     <ShopContext.Provider value={contextValue}>
       {props.children}
