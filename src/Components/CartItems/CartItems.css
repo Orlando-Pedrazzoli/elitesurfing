@@ -73,7 +73,7 @@
   width: 504px;
   margin-top: 15px;
   padding-left: 20px;
-  height: 58px;
+  height: 50px;
   background: #eaeaea;
 }
 .cartitems-promobox input {
@@ -86,7 +86,7 @@
 }
 .cartitems-promobox button {
   width: 170px;
-  height: 58px;
+  height: 50px;
   font-size: 16px;
   background: black;
   color: white;
