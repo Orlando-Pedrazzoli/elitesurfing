@@ -146,7 +146,10 @@
   .hero-latest-btn {
     width: 100px;
     height: 30px;
-    font-size: 13px;
+    font-size: 11px;
+  }
+  .hero-latest-btn img {
+    width: 25px;
   }
   .hero-right img {
     width: 180px;

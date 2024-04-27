@@ -105,7 +105,7 @@ const Navbar = () => {
             to='/outlet'
             onClick={closeMenu}
           >
-            Outlet
+            Outlet Specials
           </Link>
           {menu === 'outlet' ? <hr /> : <></>}
         </li>

@@ -4,6 +4,12 @@ import arrow_icon from '../Assets/arrow.png';
 import hero_image from '../Assets/hero_image.png';
 
 const Hero = () => {
+  const youtubeLink = 'https://www.youtube.com/shorts/Z6_vlF8IyCc';
+
+  const handleExploreClick = () => {
+    window.open(youtubeLink, '_blank');
+  };
+
   return (
     <div className='hero'>
       <div className='hero-left'>
@@ -16,7 +22,7 @@ const Hero = () => {
           <p>Your Next Ride!</p>
         </div>
         <div className='hero-latest-btn'>
-          <div>Explore</div>
+          <div onClick={handleExploreClick}>Explore</div>
           <img src={arrow_icon} alt='' />
         </div>
       </div>
