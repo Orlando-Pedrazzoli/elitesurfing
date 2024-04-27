@@ -292,7 +292,6 @@
 @media (max-width: 500px) {
   .productdisplay {
     flex-direction: column;
-    margin-top: -50px;
   }
   .productdisplay-left {
     gap: 16px;
@@ -307,7 +306,8 @@
     height: 75px;
   }
   .productdisplay-main-img {
-    height: 280px;
+    height: 230px;
+    margin: auto;
   }
   .productdisplay-right {
     margin: 5px;
@@ -350,17 +350,5 @@
 
   .productdisplay-right-category {
     font-size: 16px;
-  }
-  .whats img {
-    padding-top: 10px;
-
-    width: 40px;
-  }
-  .whats p {
-    font-size: 16px;
-    padding-top: 10px;
-  }
-  .button-whats {
-    padding-left: 10px;
   }
 }
