@@ -133,7 +133,7 @@
 }
 @media (max-width: 800px) {
   .navbar {
-    padding: 10px 0px;
+    padding: 10px 20px;
     position: fixed;
     background-color: white;
     top: 0;
@@ -167,6 +167,9 @@
   }
   .nav-login-cart img {
     padding-right: 5px;
+  }
+  .nav-login-cart img {
+    width: 25px;
   }
 }
 @media (max-width: 500px) {
