@@ -22,7 +22,7 @@ const Hero = () => {
           <p>Your Next Ride!</p>
         </div>
         <div className='hero-latest-btn'>
-          <div onClick={handleExploreClick}>Whacth</div>
+          <div onClick={handleExploreClick}>Watch</div>
           <img onClick={handleExploreClick} src={arrow_icon} alt='' />
         </div>
       </div>
