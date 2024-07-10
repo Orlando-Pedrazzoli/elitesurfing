@@ -104,7 +104,7 @@ const LoginSignup = () => {
           </div>
           <button
             type='button'
-            className='w-full px-8 py-3 font-semibold rounded-md bg-customRed dark:bg-violet-600 text-white dark:text-gray-50'
+            className='w-full px-8 py-3 font-semibold rounded-md bg-customRed dark:bg-customRed text-white dark:text-gray-50'
           >
             Sign in
           </button>
