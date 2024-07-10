@@ -12,7 +12,7 @@ const LoginSignup = () => {
           <a
             href='#'
             rel='noopener noreferrer'
-            className='focus:underline hover:underline ml-1'
+            className='focus:underline hover:underline ml-1 text-customRed dark:text-violet-600'
           >
             Sign up here
           </a>
@@ -66,7 +66,7 @@ const LoginSignup = () => {
           <p className='px-3 text-gray-400 dark:text-gray-600'>OR</p>
           <hr className='w-full text-gray-400 dark:text-gray-600' />
         </div>
-        <form noValidate='' action='' className='space-y-8'>
+        <form noValidate action='' className='space-y-8'>
           <div className='space-y-4'>
             <div className='space-y-2'>
               <label htmlFor='email' className='block text-sm'>
