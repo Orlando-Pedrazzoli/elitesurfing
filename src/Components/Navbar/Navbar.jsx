@@ -6,6 +6,7 @@ import nav_dropdown from '../Assets/nav_dropdown.png';
 import user_img from '../Assets/user_icon.png';
 import { Link } from 'react-router-dom';
 import { ShopContext } from '../../Context/ShopContext';
+import StaggeredDropDown from '../StaggeredDropDown';
 
 const Navbar = () => {
   const [menu, setMenu] = useState('shop');
