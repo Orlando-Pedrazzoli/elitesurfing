@@ -97,7 +97,7 @@ const LoginSignup = () => {
                 type='password'
                 name='password'
                 id='password'
-                placeholder='*****'
+                placeholder='**********'
                 className='w-full px-3 py-2 border rounded-md border-gray-700 dark:border-gray-300 bg-gray-900 dark:bg-gray-50 text-gray-100 dark:text-gray-800 focus:border-violet-400 focus:dark:border-violet-600'
               />
             </div>
