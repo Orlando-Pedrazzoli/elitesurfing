@@ -2,7 +2,7 @@ import React from 'react';
 
 const LoginSignup = () => {
   return (
-    <div className='min-h-screen flex items-center justify-center bg-white dark:bg-gray-800'>
+    <div className='min-h-screen flex items-center justify-center bg-white '>
       <div className='w-full max-w-md p-4 rounded-md shadow sm:p-8 bg-gray-900 dark:bg-gray-50 text-gray-100 dark:text-gray-800'>
         <h2 className='mb-3 text-3xl font-semibold text-center'>
           Login to your account
