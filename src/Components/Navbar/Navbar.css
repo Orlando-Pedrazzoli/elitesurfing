@@ -169,7 +169,7 @@
     padding-right: 5px;
   }
   .nav-login-cart img {
-    width: 25px;
+    width: 30px;
   }
 }
 @media (max-width: 500px) {
@@ -196,5 +196,8 @@
   }
   .nav-login-cart {
     transform: scale(0.8);
+  }
+  .nav-login-cart img {
+    width: 30px;
   }
 }
